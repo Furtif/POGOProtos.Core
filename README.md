@@ -1,4 +1,4 @@
-# POGOProtos.Core [![AppVeyor](https://img.shields.io/appveyor/ci/AeonLucid/pogoprotos-netstandard1/master.svg?maxAge=60)](https://ci.appveyor.com/project/AeonLucid/pogoprotos-netstandard1)  [![NuGet](https://img.shields.io/nuget/v/POGOProtos.Core.svg?maxAge=60)](https://www.nuget.org/packages/POGOProtos.Core) [![NuGet](https://img.shields.io/nuget/vpre/POGOProtos.Core.svg?maxAge=60)](https://www.nuget.org/packages/POGOProtos.Core)
+# POGOProtos.Core [![Build status](https://ci.appveyor.com/api/projects/status/hq5ln40nq95by7sa/branch/master?svg=true)](https://ci.appveyor.com/project/RocketBot/pogoprotos-core/branch/master) [![NuGet](https://img.shields.io/nuget/v/POGOProtos.Core.svg?maxAge=60)](https://www.nuget.org/packages/POGOProtos.Core) [![NuGet](https://img.shields.io/nuget/vpre/POGOProtos.Core.svg?maxAge=60)](https://www.nuget.org/packages/POGOProtos.Core)
 
 Precompiled protobuf files for communication with PokémonGo.
 
