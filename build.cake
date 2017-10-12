@@ -1,7 +1,7 @@
 #addin nuget:?package=Cake.Git
 
-var gitRepository = "https://github.com/AeonLucid/POGOProtos.git";
-var branch = EnvironmentVariable("POGOPROTOS_TAG") ?? "master";
+var gitRepository = "https://github.com/Furtif/POGOProtos-1.git";
+var branch = EnvironmentVariable("POGOPROTOS_TAG") ?? "new";
 
 var dirProtos = "./POGOProtos";
 var dirTools = "./tools";
@@ -28,7 +28,7 @@ Task("POGOProtos-Tools").Does(() => {
     NuGetInstall("Google.Protobuf.Tools", new NuGetInstallSettings {
         ExcludeVersion = true,
         OutputDirectory = dirTools,
-        Version = "3.3.0"
+        Version = "3.4.0"
     });
 });
 
@@ -46,7 +46,7 @@ Task("POGOProtos-Clone").Does(() => {
 });
 
 Task("POGOProtos-Compile").Does(() => {
-    StartProcess("C:/Python27/python.exe", new ProcessSettings()
+    StartProcess("python.exe", new ProcessSettings()
         .WithArguments(args => 
             args.AppendQuoted(System.IO.Path.GetFullPath(dirProtos + "/compile.py"))
                 .Append("-p")
