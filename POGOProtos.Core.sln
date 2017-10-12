@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0A545435-BF9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3E1C77A5-9D10-4842-8CDB-A77FBAD2538F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POGOProtos.NetStandard1", "src\POGOProtos.NetStandard1\POGOProtos.NetStandard1.csproj", "{0C62EC8F-08E5-47F2-96E9-2A02B5D9EBF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POGOProtos.Core", "src\POGOProtos.Core\POGOProtos.Core.csproj", "{0C62EC8F-08E5-47F2-96E9-2A02B5D9EBF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

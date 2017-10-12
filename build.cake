@@ -57,7 +57,7 @@ Task("POGOProtos-Compile").Does(() => {
 });
 
 Task("POGOProtos-Move").Does(() => {
-    CopyDirectory(dirProtos + "/out/POGOProtos", dirSourceCopy + "/POGOProtos.NetStandard1");
+    CopyDirectory(dirProtos + "/out/POGOProtos", dirSourceCopy + "/POGOProtos.Core");
 });
 
 Task("Version").Does(() =>
@@ -68,7 +68,7 @@ Task("Version").Does(() =>
     version = System.Text.RegularExpressions.Regex.Replace(version, @"\s+", string.Empty);
 
     // Apply version
-    var projectFile = dirSourceCopy + "/POGOProtos.NetStandard1/POGOProtos.NetStandard1.csproj";
+    var projectFile = dirSourceCopy + "/POGOProtos.Core/POGOProtos.Core.csproj";
     var updatedProjectFile = System.IO.File
         .ReadAllText(projectFile)
         .Replace("<Version>1.0.0-rc</Version>", "<Version>" + version + "</Version>");
@@ -88,8 +88,8 @@ Task("Default")
   .IsDependentOn("Version")
   .Does(() =>
 {
-  DotNetCoreRestore(dirSourceCopy + "/POGOProtos.NetStandard1");
-  DotNetCorePack(dirSourceCopy + "/POGOProtos.NetStandard1", new DotNetCorePackSettings {
+  DotNetCoreRestore(dirSourceCopy + "/POGOProtos.Core");
+  DotNetCorePack(dirSourceCopy + "/POGOProtos.Core", new DotNetCorePackSettings {
       Configuration = "Release"
   });
 });
