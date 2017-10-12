@@ -8,7 +8,7 @@
     <AssemblyName>POGOProtos.Core</AssemblyName>
     <PackageId>POGOProtos.Core</PackageId>
     <PackageTags>Pokemon;POGOProtos;netstandard</PackageTags>
-    <PackageIconUrl>http://i.imgur.com/sIso99f.jpg</PackageIconUrl>
+    <PackageIconUrl>https://secure.gravatar.com/avatar/d6dddda25a178dc2dd93edae79821fe3?s=512&amp;r=g&amp;d=retro</PackageIconUrl>
     <PackageProjectUrl>https://github.com/Furtif/POGOProtos.Core</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/Furtif/POGOProtos.Core</RepositoryUrl>
