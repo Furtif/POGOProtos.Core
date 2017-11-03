@@ -1,7 +1,7 @@
 #addin nuget:?package=Cake.Git
 
 var gitRepository = "https://github.com/Furtif/POGOProtos-1.git";
-var branch = EnvironmentVariable("POGOPROTOS_TAG") ?? "0.79.2";
+var branch = EnvironmentVariable("POGOPROTOS_TAG") ?? "master";
 
 var dirProtos = "./POGOProtos";
 var dirTools = "./tools";

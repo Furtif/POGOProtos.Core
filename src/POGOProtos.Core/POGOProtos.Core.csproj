@@ -16,6 +16,7 @@
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.0' ">1.6.1</NetStandardImplicitPackageVersion>
     <DebugType>portable</DebugType>
     <Platforms>AnyCPU;x64;x86</Platforms>
+    <Company>AeonLucid</Company>
   </PropertyGroup>
 
   <ItemGroup>
