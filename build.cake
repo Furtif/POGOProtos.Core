@@ -28,7 +28,7 @@ Task("POGOProtos-Tools").Does(() => {
     NuGetInstall("Google.Protobuf.Tools", new NuGetInstallSettings {
         ExcludeVersion = true,
         OutputDirectory = dirTools,
-        Version = "3.4.0"
+        Version = "3.5.1"
     });
 });
 
