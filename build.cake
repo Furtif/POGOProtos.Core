@@ -1,6 +1,6 @@
 #addin nuget:?package=Cake.Git
 
-var gitRepository = "https://github.com/Furtif/POGOProtos-1.git";
+var gitRepository = "https://github.com/Furtif/POGOProtos.git";
 var branch = EnvironmentVariable("POGOPROTOS_TAG") ?? "master";
 
 var dirProtos = "./POGOProtos";
@@ -28,7 +28,7 @@ Task("POGOProtos-Tools").Does(() => {
     NuGetInstall("Google.Protobuf.Tools", new NuGetInstallSettings {
         ExcludeVersion = true,
         OutputDirectory = dirTools,
-        Version = "3.5.1"
+        Version = "3.6.0"
     });
 });
 
