@@ -1,3 +1,9 @@
+<!-- define variables -->
+[1.1]: http://i.imgur.com/M4fJ65n.png (ATTENTION)
+
+
+![alt text][1.1] <strong><em>`The contents of this repo are a proof of concept and are for educational use only`</em></strong>![alt text][1.1]<br/>
+
 # POGOProtos.Core [![Build status](https://ci.appveyor.com/api/projects/status/hq5ln40nq95by7sa/branch/master?svg=true)](https://ci.appveyor.com/project/RocketBot/pogoprotos-core/branch/master) [![NuGet](https://img.shields.io/nuget/v/POGOProtos.Core.svg?maxAge=60)](https://www.nuget.org/packages/POGOProtos.Core) [![NuGet](https://img.shields.io/nuget/vpre/POGOProtos.Core.svg?maxAge=60)](https://www.nuget.org/packages/POGOProtos.Core) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SNATC29B4ZJD4)
 
 Precompiled protobuf files for communication with PokémonGo.
