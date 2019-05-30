@@ -19,7 +19,7 @@ environment:
       PYTHON_ARCH: "32"
 
 build_script:
-  - ps: ./build.ps1
+  - ps: ./build.ps1 --settings_skippackageversioncheck=true
   
 artifacts:
  - path: '**\POGOProtos.*.nupkg'
